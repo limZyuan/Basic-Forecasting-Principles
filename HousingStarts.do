@@ -2,7 +2,6 @@ foreach var of varlist * {
 	cap replace `var' = "" if `var'=="NA"
 	destring `var',replace
 }
-
 label variable hstart_can_new "Housing Starts"
 tsmktim time, start(1914m1) // Set time variable
 tsline hstart_can_new if time>tm(1980m12) & time<tm(2020m1), title(Housing Starts from 1981 to 2019) // Plot graph to eyeball

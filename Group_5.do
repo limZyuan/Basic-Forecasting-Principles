@@ -1,4 +1,3 @@
-import delimited "EC4304 Project Data",clear
 foreach var of varlist * {
 	cap replace `var' = "" if `var'=="NA"
 	destring `var',replace

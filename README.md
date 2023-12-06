@@ -10,3 +10,5 @@ Usage of basic forecasting principles to predict Housing starts.
 - h-step ahead forecasts (Iterated & Direct)
 - Forecast Combination (Simple Average, Bates-Granger, Granger Ramanathan & WAIC)
 - Forecast Evaluation (White Noise test, MA(h-1) errors, Mincer Zarnowitz regression & Diebold Mariano test)
+
+Mainly models parametric relationships. Could use ML methods to such as Hybrid learning with non-parametric methods like regression trees to account for the non-linearities.

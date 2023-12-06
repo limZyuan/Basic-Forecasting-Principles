@@ -1,4 +1,4 @@
-# Forecasting-Project
+# Basic-Forecasting-Principles
 Usage of basic forecasting principles to predict Housing starts.
 
 - Spliting of Data into Training, Holdout (PLS & Bates-Granger weights) & Evaluation
